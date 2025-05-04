@@ -6,28 +6,33 @@ permalink: /about.html
 credits: true
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
+#  and (https://collectionbuilder.github.io/collectionbuilder-gh/feature_options.html)
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="objects/banner.png" %} 
 
 {% include feature/nav-menu.html sections="About CollectionBuilder CSV;About the About Page" %}
 
-## About CollectionBuilder CSV
+## About The Storyverse Project 
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+In every great story is the spark of a new literary universe - the fictional parallel universe we go to as readers, and the ever-expanding 'storyverse' when versions of the characters, stories and narrative continue on in related literary works.
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+The Storyverse Project is a personally curated collection of 'canon' literary works with their related adaptations, retellings, and non-fiction. 
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+This collection connects traditional library classification and curated tags in order to share fuller context, and inspire your next read!
++ Standard subject headings and genres (shown as #sh/ and #g/) 
++ Key locations, real and imagined (shown as #loc/)
++ Key info on the story era and timeframe (shown as #era/)
++ 'Storyverse Folksonomy' tags (shown as #svf/)
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
 
-{% include feature/image.html objectid="demo_001" width="75" %} 
+## About This Site
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+This collection uses [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv) with Jekyll. For more info, visit [CB Docs](https://collectionbuilder.github.io/cb-docs/).
+
+
+<!-- {% include feature/image.html objectid="demo_001" width="75" %} -->
+
+<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it. 
+{% include cb/about_the_about.md %}  -->

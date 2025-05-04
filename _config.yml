@@ -12,7 +12,7 @@ url:
 # path to location on the domain if necessary e.g. /digital/hjccc
 baseurl: 
 # location of code, the full url to your github repository
-source-code: https://github.com/CollectionBuilder/collectionbuilder-csv
+source-code: https://github.com/brigidarium/the-storyverse-project-collection
 
 ##########
 # SITE SETTINGS
@@ -23,7 +23,7 @@ title: The Storyverse Project ~ Collection
 tagline: Curated digital collection of adaptations, retellings, and reimaginings of favorite literary worlds 
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "Curated digital collection of adaptations, retellings, and reimaginings of favorite literary worlds "
+description: "Current StoryVerses: ~ Pride & Prejudice ~ Anne of Green Gables"
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: books, reading, literature 
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
